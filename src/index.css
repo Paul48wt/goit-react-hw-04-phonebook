@@ -13,3 +13,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.formTitle {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.contactListItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.contactListItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+.formInput {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px rgba(66, 66, 66, 0.19);
+  /* text-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75); */
+  margin-bottom: 10px;
+}
+.btn {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: #33bdef;
+  border-radius: 6px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+.contact {
+  font-weight: 500;
+}
