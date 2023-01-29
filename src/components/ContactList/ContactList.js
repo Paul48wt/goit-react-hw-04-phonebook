@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 export const ContactList = ({ visibleContacts, onDeleteContact }) => {
   return (
     <ul>
@@ -18,9 +17,4 @@ export const ContactList = ({ visibleContacts, onDeleteContact }) => {
       ))}
     </ul>
   );
-};
-
-ContactList.propTypes = {
-  visibleContacts: PropTypes.array,
-  onDeleteContact: PropTypes.func,
 };
